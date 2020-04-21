@@ -21,7 +21,10 @@ extern "C" void callConstructors()
 
 extern "C" void kernelMain(const void* multiboot_structure, unsigned int /*multiboot_magic*/)
 {
-    printf("Operating System successfully booted ! --- Vaibhav Zodge");
+    printf("Operating System successfully booted ! --- Vaibhav Zodge\n");
+    printf("VZ$");
+    
+
 
     while(1);
 }
